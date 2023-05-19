@@ -18,8 +18,6 @@ while 1:
         pygame.draw.circle(screen, (255, 255, 255), (166, c), 10)
         pygame.draw.circle(screen, (255, 255, 255), (166*2, c), 10)
 
-        pygame.draw.rect(screen, (255, 255, 255), [150, 400, 30, 5])
-
     pygame.display.flip()
 
     for i in range(len(s)):
